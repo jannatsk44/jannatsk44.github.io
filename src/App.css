@@ -1,0 +1,263 @@
+@font-face {
+  font-family: 'Lufga';
+  src: 
+       url('../Lufga/LufgaRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+  @media (max-width: 600px) {
+    .typing-demo {
+        width: 62% !important;
+       
+    }
+  }
+
+  .typing-demo {
+    display: inline-block;
+     width: 31%;
+     animation: typing 2s steps(23), blink .5s step-end infinite alternate;
+     white-space: nowrap;
+     overflow: hidden;
+     border-right: 3px solid;
+     border-color: transparent;
+   }
+
+   @keyframes typing {
+     from {
+       width: 0
+     }
+   }
+       
+   @keyframes blink {
+     50% {
+          border-color: rgb(255, 139, 7);}
+   }
+
+
+   @keyframes blinkArrow {
+    50% {
+            opacity: 0;
+        }
+  }
+
+
+   .blink-arrow{
+    animation:blinkArrow .3s step-end infinite alternate
+   }
+
+/* For carousel */
+/* App.css */
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+.custom-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.custom-dots {
+  width: 100%;
+  height: 10px;
+  color: #E4E7EC;
+  border-radius: 50%;
+  margin: 45px 0px 0px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.custom-dots .line {
+  width: 70px; 
+  height: 10px;
+  background-color: #FD853A;
+  border-radius: 10px;
+  margin: 0 35px 0 0;
+  position: relative;
+  margin-top: 2px;
+
+}
+
+.custom-dots .dot.slick-active {
+  background-color: #FD853A;
+  
+}
+
+
+
+.dot.slick-active {
+  display: none !important;
+}
+
+.slick-active li {
+  display: none !important;
+}
+
+.dot{
+
+  font-size: 35px !important;
+
+}
+
+.wi{
+  width: 80% !important;
+}
+
+
+.glowing-button {
+  -webkit-animation: glowing 1s ease-in-out infinite alternate;
+  -moz-animation: glowing 1s ease-in-out infinite alternate;
+  animation: glowing 1s ease-in-out infinite alternate;
+}
+@keyframes glowing {
+  from {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px rgb(236, 49, 105), 0 0 15px  rgb(253 133 58 / var(--tw-bg-opacity)), 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073;
+  }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 10px #fd4949, 0 0 20px  rgb(253 133 58 / var(--tw-bg-opacity)), 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6;
+  }
+}
+
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(100%) ;
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.move-up {
+  animation: moveUp  500ms  ease-in-out forwards;
+}
+.move-up2 {
+  animation: moveUp  750ms  ease-in-out forwards;
+}
+.move-up3 {
+  animation: moveUp  1000ms  ease-in-out forwards;
+}
+.move-up4 {
+  animation: moveUp  1250ms  ease-in-out forwards;
+}
+.move-up5 {
+  animation: moveUp  1500ms  ease-in-out forwards;
+}
+
+.glowing-button2 {
+  -webkit-animation: glowing2 1s ease-in-out infinite alternate;
+  -moz-animation: glowing2 1s ease-in-out infinite alternate;
+  animation: glowing2 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes glowing2 {
+  from {
+    box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px rgb(236, 49, 105), 0 0 10px  rgb(253 133 58 / var(--tw-bg-opacity)), 0 0 10px #e60073, 0 0 15px #e60073, 0 0 20px #e60073;
+  }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 3px #ff4da6, 0 0 3px #fd4949, 0 0 5px  rgb(253 133 58 / var(--tw-bg-opacity)), 0 0 10px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6;
+  }
+}
+
+
+@keyframes dashAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.dash-segment {
+  opacity: 0;
+  animation: dashAnimation 0.5s ease-in-out forwards;
+}
+
+.dash-segment2 {
+  opacity: 0;
+  animation: dashAnimation 1s ease-in-out forwards;
+}
+
+@keyframes moveDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.movedown {
+  opacity: 0;
+
+  animation: moveDown  500ms  ease-in-out forwards;
+}
+
+.movedown2 {
+  opacity: 0;
+
+  animation: moveDown  1000ms  ease-in-out forwards;
+}
+
+.movedown3 {
+  opacity: 0;
+
+  animation: moveDown  1500ms  ease-in-out forwards;
+}
+
+
+@keyframes makeVisible {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.makevisible {
+  opacity: 0;
+
+  animation: makeVisible  500ms  ease-in-out forwards;
+}
+
+.makevisible2 {
+  opacity: 0;
+
+  animation: makeVisible  1100ms  ease-in-out forwards;
+}
+
+.makevisible3 {
+  opacity: 0;
+
+  animation: makeVisible  1700ms  ease-in-out forwards;
+}
+
+
+@keyframes scaleStuff {
+  0% {
+    opacity: 0;
+    transform: translateY(100%) scale(0%) ;
+    
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%) scale(100%);
+    
+  }
+}
+
+.scale-stuff {
+  animation: scaleStuff 750ms ease-in-out forwards;
+}
