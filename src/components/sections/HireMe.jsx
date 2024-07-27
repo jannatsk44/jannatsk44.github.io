@@ -120,7 +120,7 @@ function HireMe() {
                 onChange={handleChange}
               />
             </div>
-            <button className={`bg-butonOrange  glowing-button2 ${hireInView ? 'move-up5' : ''} text-white text-xl font-semibold rounded-full sm:text-base p-5`}>Send Message</button>
+            <button className={`bg-butonOrange  glowing-button2 ${hireInView ? 'move-up5' : ''} text-white text-xl font-semibold rounded-full sm:text-base px-5 py-3`}>Send Message</button>
           </form>
         </div>
       </div>

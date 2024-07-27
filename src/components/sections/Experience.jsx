@@ -14,22 +14,22 @@ function Experience() {
             </label>
 
             <div className={`w-full flex justify-evenly ${exInView ? 'in-view' : ''}`}>
-                <div className='w-2/6 flex flex-col gap-9 sm:gap-10'>
+                <div className='w-2/6 flex flex-col gap-12 sm:gap-11 xs:gap-11 '>
                     <div className={`w-full flex flex-col gap-2  ${exInView ? 'movedown' : ''}`}>
                         <label className='text-2xl sm:text-sm font-bold'>Iqra Technology Pvt. Ltd.</label>
-                        <label className='text-xl sm:text-xs'>May 2023 - Jul 2023</label>
+                        <label className='text-xl sm:text-xs xs:text-[10px]'>May 2023 - Jul 2023</label>
                         <a href='https://drive.google.com/file/d/1PkqlA6b7fGKjL60DqT4xNvBafxQBCf5k/view?' target="_blank" rel="noopener noreferrer"  className='w-1/4 sm:w-1/2 sm:rounded-2xl h-fit flex items-center justify-center z-10 p-1 bg-butonOrange text-white font-semibold text-xl sm:text-xs sm:pl-2 sm:pr-2 sm:mr-3 rounded-full'>View
                         </a>
                     </div>
                     <div className={`w-full flex flex-col gap-2 ${exInView ? 'movedown2' : ''}`} style={{ animationDelay: "1.3s" }}>
                         <label className='text-2xl sm:text-sm font-bold'>NanoBios Lab, IIT Bombay</label>
-                        <label className='text-xl sm:text-xs'>Dec 2023 - May 2024</label>
+                        <label className='text-xl sm:text-xs xs:text-[10px]'>Dec 2023 - May 2024</label>
                         <a href='https://drive.google.com/file/d/1YrHzWb-iwOw_Ba0y52PoKOdIKi0h-x9r/view?' target="_blank" rel="noopener noreferrer"  className='w-1/4 sm:w-1/2 sm:rounded-2xl h-fit flex items-center justify-center z-10 p-1 bg-butonOrange text-white font-semibold text-xl sm:text-xs sm:pl-2 sm:pr-2 sm:mr-3 rounded-full'>View
                         </a>
                     </div>
                     <div className={`w-full flex flex-col gap-2 ${exInView ? 'movedown3' : ''}`} style={{ animationDelay: "2.5s" }}>
-                        <label className='text-2xl sm:text-sm font-bold'>Tech Vyassa IT Software Solutions</label>
-                        <label className='text-xl sm:text-xs'>Dec 2023 - Jun 2024</label>
+                        <label className='text-2xl sm:text-sm xs:tracking-tighter font-bold -mt-2 sm:mt-0'>Tech Vyassa IT Software Solutions</label>
+                        <label className='text-xl sm:text-xs xs:text-[10px]'>Dec 2023 - Jun 2024</label>
                         <a href='https://drive.google.com/file/d/1l00IARq-7L3NIOkBeSwXtNyIoA4MaMEV/view?' target="_blank" rel="noopener noreferrer"  className='w-1/4 sm:w-1/2 sm:rounded-2xl h-fit flex items-center justify-center z-10 p-1 bg-butonOrange text-white font-semibold text-xl sm:text-xs sm:pl-2 sm:pr-2 sm:mr-3 rounded-full'>View
                         </a>
                     </div>
@@ -79,22 +79,22 @@ function Experience() {
                     </div>
                 </div>
 
-                <div className='w-2/6 flex flex-col gap-10  sm:gap-9'>
+                <div className='w-2/6 flex flex-col gap-10  sm:gap-9  xs:gap-[10%]'>
                     <div className={`w-full flex flex-col gap-0  ${exInView ? 'movedown' : ''}`}>
                         <label className='text-2xl sm:text-sm font-bold'>IT Intern</label>
-                        <label className='text-lg sm:text-[11px] sm:leading-3'>
+                        <label className='text-lg sm:text-[11px] xs:text-[9px] sm:leading-3'>
                             Developed a software for Criminal Face Detection from CCTV cameras known as CAMSAFE. Worked on Frontend using React js, Tailwind and python.
                         </label>
                     </div>
                     <div className={`w-full flex flex-col gap-0 ${exInView ? 'movedown2' : ''}`} style={{ animationDelay: "1.3s" }}>
                         <label className='text-2xl sm:text-xs sm:whitespace-nowrap font-bold'>Front-End Developer</label>
-                        <label className='text-lg sm:text-[11px] sm:leading-3'>
+                        <label className='text-lg sm:text-[11px] xs:text-[9px] sm:leading-3'>
                             Worked on 6 medical projects. Developed Frontend using React js, Tailwind and python. Integrated Django APIs using Axios.
                         </label>
                     </div>
                     <div className={`w-full flex flex-col gap-0 ${exInView ? 'movedown3' : ''}`} style={{ animationDelay: "2.5s" }}>
                         <label className='text-2xl sm:text-xs sm:mt-4 sm:whitespace-nowrap font-bold'>Full Stack Developer</label>
-                        <label className='text-lg sm:text-[11px] sm:leading-3'>
+                        <label className='text-lg sm:text-[11px] xs:text-[9px] sm:leading-3'>
                             Developed a software for Criminal Face Detection from CCTV cameras known as CAMSAFE. Worked on Frontend using React js, Tailwind, python and Django.
                         </label>
                     </div>

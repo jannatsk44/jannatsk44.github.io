@@ -12,7 +12,7 @@ function Footer() {
        I believe in myself. I work efficiently both as an individual contributor as well as along with a team. Besides the details given in my resume, I believe in character, values, vision, and action. I look for positivity in all things. I am a quick learner and believe in learning from my mistakes.
      </label>  
  </div>
- <div className='w-1/5 sm:hidden flex flex-col items-end justify-center'>
+ <div className='w-1/5 sm:hidden flex flex-col items-end justify-start'>
    <div className='w-3/4 flex flex-col gap-3'>
       <label className='text-2xl text-butonOrange font-semibold font-montserrat'>Links</label>
       <a href='#home' className='text-white cursor-pointer w-fit text-greenfont text-xl hover:border-b-2 hover:border-butonOrange'>Home</a>

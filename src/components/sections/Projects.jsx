@@ -36,14 +36,14 @@ function Projects() {
     ]
   };
   return (
-    <div id='project' className='w-full flex flex-col sm:pb-10 sm:h-auto h-dvh'>
-        <img src={bg} className='absolute left-0 rounded-[50px] z-10 opacity-70 h-dvh sm:h-[55vh]  w-dvw' alt=''/>
+    <div id='project' className='w-full flex flex-col sm:pb-10 sm:h-auto'>
+        <img src={bg} className='absolute left-0 rounded-[50px] z-10 opacity-70 h-[100%] sm:h-[70%] object-cover  w-dvw' alt=''/>
         <div className='w-full flex sm:mt-5 items-center'>
           <label className='w-10/12 opacity-100 z-10 text-5xl font-lufga font-semibold ml-20 sm:ml-5 sm:text-4xl my-10 text-white'>My <span className='text-butonOrange'>Projects</span></label>
-          <a href='https://github.com/jannatsk44?tab=repositories' target="_blank" rel="noopener noreferrer"  className='w-1/12 sm:w-1/3 sm:rounded-2xl h-fit flex items-center justify-center z-10 p-2 bg-butonOrange text-white font-semibold text-xl sm:text-sm sm:pl-2 sm:pr-2 sm:mr-3 rounded-full'>View All <LuMoveUpRight />
+          <a href='https://github.com/jannatsk44?tab=repositories' target="_blank" rel="noopener noreferrer"  className='w-1/12 sm:w-1/3 sm:rounded-2xl h-fit flex items-center justify-center z-10 p-2 bg-butonOrange text-white font-semibold text-lg  sm:text-sm sm:pl-2 sm:pr-2 sm:mr-3 rounded-full'>View All <LuMoveUpRight />
           </a>
         </div>
-        <div className='w-full pl-20 xs:pl-2 sm:pl-5 opacity-100 sm:py-0 py-10 z-10'>
+        <div className='w-full pl-20 xs:pl-2 sm:pl-5 opacity-100 sm:py-0 z-10'>
         <Slider {...settings}>
         <div>
             <ProjectCard title='Lost Laptop Tracking System Using MAC Address' content='A laptop tracking system using MAC address is a solution designed to help track and recover lost or stolen laptops. MAC address stands for Media Access Control address and it is a unique identifier assigned to network interfaces for communications on a network.' link='https://github.com/pillaiganeshmohan/Lost-Laptop-Tracking-System-Using-MAC-Address'/>
