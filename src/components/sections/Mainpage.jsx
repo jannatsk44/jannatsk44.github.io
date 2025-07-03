@@ -11,7 +11,7 @@ function Mainpage() {
         <div className='w-full flex flex-col items-center justify-center'>
            
             <div className='text-2xl sm:text-xl font-semibold inline-block rounded-full border-2 border-black px-4 font-lufga mb-4'>Hello!</div>
-            <label className='w-full text-center text-5xl sm:text-2xl font-semibold font-urbanist'>I’m <span className='text-butonOrange typing-demo inline-block -mb-2'>Jannat Iqbal Shaikh,</span><br/>Full-Stack AI Developer</label>
+            <label className='w-full text-center text-5xl sm:text-2xl font-semibold font-urbanist'>I’m <span className='text-butonOrange typing-demo inline-block -mb-2'>Jannat Iqbal Shaikh, </span><br/>Full-Stack AI Developer</label>
             
         </div>
         <div className='w-full flex'>
