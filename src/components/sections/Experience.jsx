@@ -10,7 +10,7 @@ function Experience() {
     return (
         <div ref={exRef} id='experience' className='w-full h-[90vh] sm:h-auto my-10 flex flex-col font-lufga'>
             <label className='w-full opacity-100 z-10 text-5xl font-lufga font-semibold text-center sm:text-4xl my-10 text-black'>
-                My <span className='text-butonOrange'>Experience</span>
+                My <span className='text-gray-400'>Experience</span>
             </label>
 
             <div className={`w-full flex justify-evenly ${exInView ? 'in-view' : ''}`}>
@@ -31,7 +31,7 @@ function Experience() {
 
                 <div className='w-1/6 flex flex-col sm:-ml-2 items-center justify-start'>
                     <div className={`flex items-center justify-center size-14 sm:size-10 rounded-full p-1 bg-white border-4 sm:border-[3px] border-black border-dashed ${exInView ? 'makevisible' : ''}`}>
-                        <div className='size-10 sm:size-6 rounded-full bg-butonOrange text-butonOrange'>.......</div>
+                        <div className='size-10 sm:size-6 rounded-full bg-[#9ca3af] text-[#9ca3af]'>.......</div>
                     </div>
                     
                     <svg width="3" height="100" className=''>
@@ -50,7 +50,7 @@ function Experience() {
                     </svg>
 
                     <div className={`flex items-center justify-center size-14 sm:size-10 rounded-full p-1 bg-white border-4 sm:border-[3px] border-black border-dashed ${exInView ? 'makevisible2' : ''}`} style={{ animationDelay: "1.3s" }}>
-                        <div className='size-10 sm:size-6 rounded-full bg-black text-black'>.......</div>
+                        <div className='size-10 sm:size-6 rounded-full bg-[#4f4f4f] text-[#4f4f4f]'>.......</div>
                     </div>
 
                     <svg width="3" height="100" className=''>
@@ -69,7 +69,7 @@ function Experience() {
                     </svg>
 
                     <div className={`flex items-center justify-center sm:size-10 size-14 rounded-full p-1 bg-white border-4 sm:border-[3px] border-black border-dashed ${exInView ? 'makevisible3' : ''}`} style={{ animationDelay: "2.5s" }}>
-                        <div className='size-10 sm:size-6 rounded-full bg-butonOrange text-butonOrange'>.......</div>
+                        <div className='size-10 sm:size-6 rounded-full bg-[#9ca3af] text-[#9ca3af]'>.......</div>
                     </div>
                 </div>
 

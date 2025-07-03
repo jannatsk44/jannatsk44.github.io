@@ -5,7 +5,7 @@ function ProjectCard({title, content, link}) {
   return (
 
 
-    <div className='w-[350px] sm:w-[160px] sm:h-[235px] h-[400px] flex flex-col bg-[#757575] bg-opacity-70 z-10 rounded-[30px] text-white  hover:transform  transition-all ease-in-out delay-100 hover:scale-110  sm:hover:scale-100 hover:scroll-smooth my-5 sm:m-0 mx-5'>
+    <div className='w-[350px] sm:w-[160px] sm:h-[235px] h-[400px] flex flex-col bg-[#3a3a3a] bg-opacity-70 z-10 rounded-[30px] text-white  hover:transform  transition-all ease-in-out delay-100 hover:scale-110  sm:hover:scale-100 hover:scroll-smooth my-5 sm:m-0 mx-5'>
         <div className='code h-2/6 text-3xl sm:text-xs text-center bg-opacity-100 sm:leading-4 sm:pb-1 z-20 font-bold py-3 sm:px-1 px-6'>
         {title}
         </div>

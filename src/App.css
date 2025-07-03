@@ -32,7 +32,7 @@
        
    @keyframes blink {
      50% {
-          border-color: rgb(255, 139, 7);}
+          border-color: rgb(55, 65, 81);}
    }
 
 
@@ -64,7 +64,7 @@
 .custom-dots {
   width: 100%;
   height: 10px;
-  color: #E4E7EC;
+  color: #d1d5db;
   border-radius: 50%;
   margin: 45px 0px 0px;
   align-items: center;
@@ -75,7 +75,7 @@
 .custom-dots .line {
   width: 70px; 
   height: 10px;
-  background-color: #FD853A;
+  background-color: #374151;
   border-radius: 10px;
   margin: 0 35px 0 0;
   position: relative;
@@ -84,7 +84,7 @@
 }
 
 .custom-dots .dot.slick-active {
-  background-color: #FD853A;
+  background-color: #374151;
   
 }
 
@@ -116,13 +116,26 @@
 }
 @keyframes glowing {
   from {
-    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px rgb(236, 49, 105), 0 0 15px  rgb(253 133 58 / var(--tw-bg-opacity)), 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073;
+    box-shadow: 0 0 5px #6b7280, 0 0 10px #6b7280, 0 0 15px #6b7280, 0 0 20px #6b7280, 0 0 25px #6b7280;
   }
   to {
-    box-shadow: 0 0 5px #fff, 0 0 5px #ff4da6, 0 0 10px #fd4949, 0 0 20px  rgb(253 133 58 / var(--tw-bg-opacity)), 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6;
+    box-shadow: 0 0 3px #6b7280, 0 0 8px #6b7280, 0 0 12px #6b7280, 0 0 18px #6b7280, 0 0 22px #6b7280;
   }
 }
 
+.glowing-brain {
+  -webkit-animation: glowing 1s ease-in-out infinite alternate;
+  -moz-animation: glowing 1s ease-in-out infinite alternate;
+  animation: glowing 1s ease-in-out infinite alternate;
+}
+@keyframes glowing {
+  from {
+    box-shadow: 0 0 5px #6b7280, 0 0 10px #6b7280, 0 0 15px #6b7280, 0 0 20px #6b7280, 0 0 25px #6b7280;
+  }
+  to {
+    box-shadow: 0 0 3px #6b7280, 0 0 8px #6b7280, 0 0 12px #6b7280, 0 0 18px #6b7280, 0 0 22px #6b7280;
+  }
+}
 
 @keyframes moveUp {
   0% {
@@ -160,10 +173,10 @@
 
 @keyframes glowing2 {
   from {
-    box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px rgb(236, 49, 105), 0 0 10px  rgb(253 133 58 / var(--tw-bg-opacity)), 0 0 10px #e60073, 0 0 15px #e60073, 0 0 20px #e60073;
+    box-shadow: 0 0 3px #6b7280, 0 0 6px #6b7280, 0 0 9px #6b7280, 0 0 12px #6b7280, 0 0 15px #6b7280;
   }
   to {
-    box-shadow: 0 0 5px #fff, 0 0 3px #ff4da6, 0 0 3px #fd4949, 0 0 5px  rgb(253 133 58 / var(--tw-bg-opacity)), 0 0 10px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6;
+    box-shadow: 0 0 2px #6b7280, 0 0 4px #6b7280, 0 0 6px #6b7280, 0 0 8px #6b7280, 0 0 12px #6b7280;
   }
 }
 

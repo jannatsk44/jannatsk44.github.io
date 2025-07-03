@@ -57,8 +57,8 @@ function HireMe() {
   };
 
   return (
-    <div id='contact' className='w-full h-dvh sm:h-auto bg-[#72B7E3] rounded-[50px] py-10 font-lufga '>
-      <label className='w-10/12 opacity-100 z-10 text-5xl font-lufga font-semibold ml-20 sm:text-4xl sm:ml-5 sm:my-5 my-10 text-butonOrange'>Hire <span className='text-[#344054]'>Me</span></label>
+    <div id='contact' className='w-full h-dvh sm:h-auto bg-[#9ca3af] rounded-[50px] py-10 font-lufga '>
+      <label className='w-10/12 opacity-100 z-10 text-5xl font-lufga font-semibold ml-20 sm:text-4xl sm:ml-5 sm:my-5 my-10 text-butonOrange'>Hire <span className='text-[#ffffff]'>Me</span></label>
       <div className='w-full flex sm:flex-col  sm:gap-4 sm:mt-4 mt-14'>
         <div className='w-1/2 sm:grid sm:ml-7 sm:w-11/12 sm:grid-cols-3 flex flex-col gap-8 sm:gap-2'>
           <a href = 'https://github.com/jannatsk44' target="_blank" rel="noopener noreferrer"className={`${hireInView ? 'move-up' : ''} sm:w-11/12 w-full flex items-center gap-5 sm:gap-1 ml-20 sm:ml-0`} ref={hireRef}>

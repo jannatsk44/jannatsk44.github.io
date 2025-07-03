@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors:{
         navbg: '#171717',
-        butonOrange: '#FD853A',
+        butonOrange: '#374151',
 
       },
       fontFamily: {
@@ -17,10 +17,16 @@ module.exports = {
 
       },
       screens:{
-        'lgg': {'max':'1700px'},
-        'sm': {'max':'700px'},
         'xs': {'max':'374px'},
-        'md': {'max':'1100px'},
+        'sm': {'max':'640px'},
+        'md': {'max':'768px'},
+        'lg': {'max':'1024px'},
+        'xl': {'max':'1280px'},
+        '2xl': {'max':'1536px'},
+        'mobile': {'max':'480px'},
+        'tablet': {'min':'481px', 'max':'768px'},
+        'laptop': {'min':'769px', 'max':'1024px'},
+        'desktop': {'min':'1025px'},
       },
     },
   },

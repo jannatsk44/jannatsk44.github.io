@@ -10,7 +10,7 @@ import Footer from './sections/Footer.jsx'
 
 function Home() {
   return (
-    <div id='home' className='bg-[#BBEAFF] w-full flex flex-col items-center justify-center'>
+    <div id='home' className='bg-white w-full flex flex-col items-center justify-center'>
         <Navbar/> 
         <Mainpage/>
         <Projects/>
