@@ -9,14 +9,14 @@
 
   @media (max-width: 600px) {
     .typing-demo {
-        width: 62% !important;
+        width: 65% !important;
        
     }
   }
 
   .typing-demo {
     display: inline-block;
-     width: 31%;
+     width: 33%;
      animation: typing 2s steps(23), blink .5s step-end infinite alternate;
      white-space: nowrap;
      overflow: hidden;
