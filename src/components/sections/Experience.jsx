@@ -17,16 +17,17 @@ function Experience() {
                 <div className='w-2/6 flex flex-col gap-[90px] sm:gap-20'>
                     <div className={`w-full flex flex-col gap-2  ${exInView ? 'movedown' : ''}`}>
                         <label className='text-2xl sm:text-sm font-bold'>Iqra Technology Pvt. Ltd.</label>
-                        <label className='text-xl sm:text-xs'>May 2023 - Jul 2023</label>
+                        <label className='text-xl sm:text-xs'>Nov 2024 - Present</label>
                     </div>
                     <div className={`w-full flex flex-col gap-2 ${exInView ? 'movedown2' : ''}`} style={{ animationDelay: "1.3s" }}>
-                        <label className='text-2xl sm:text-sm font-bold'>NanoBios Lab, IIT Bombay</label>
-                        <label className='text-xl sm:text-xs'>Dec 2023 - May 2024</label>
-                    </div>
-                    <div className={`w-full flex flex-col gap-2 ${exInView ? 'movedown3' : ''}`} style={{ animationDelay: "2.5s" }}>
                         <label className='text-2xl sm:text-sm font-bold'>Tech Vyassa IT Software Solutions</label>
                         <label className='text-xl sm:text-xs'>Dec 2023 - Jun 2024</label>
                     </div>
+                    <div className={`w-full flex flex-col gap-2 ${exInView ? 'movedown3' : ''}`} style={{ animationDelay: "2.5s" }}>
+                        <label className='text-2xl sm:text-sm font-bold'>NanoBios Lab, IIT Bombay</label>
+                        <label className='text-xl sm:text-xs'>Dec 2023 - May 2024</label>
+                    </div>
+                    
                 </div>
 
                 <div className='w-1/6 flex flex-col sm:-ml-2 items-center justify-start'>
@@ -75,23 +76,24 @@ function Experience() {
 
                 <div className='w-2/6 flex flex-col gap-10  sm:gap-9'>
                     <div className={`w-full flex flex-col gap-0  ${exInView ? 'movedown' : ''}`}>
-                        <label className='text-2xl sm:text-sm font-bold'>IT Intern</label>
+                        <label className='text-2xl sm:text-sm font-bold'>Fullstack AI Developer</label>
                         <label className='text-lg sm:text-[11px] sm:leading-3'>
-                            Developed a software for Criminal Face Detection from CCTV cameras known as CAMSAFE. Worked on Frontend using React js, Tailwind and python.
+                            Led full-stack AI development with React and DRF. AI Coding Assistant and GPT-based chatbot with RAG using LangChain and Cassandra. Added feedback-driven training.
                         </label>
                     </div>
                     <div className={`w-full flex flex-col gap-0 ${exInView ? 'movedown2' : ''}`} style={{ animationDelay: "1.3s" }}>
-                        <label className='text-2xl sm:text-xs sm:whitespace-nowrap font-bold'>Front-End Developer</label>
-                        <label className='text-lg sm:text-[11px] sm:leading-3'>
-                            Worked on 6 medical projects. Developed Frontend using React js, Tailwind and python. Integrated Django APIs using Axios.
-                        </label>
-                    </div>
-                    <div className={`w-full flex flex-col gap-0 ${exInView ? 'movedown3' : ''}`} style={{ animationDelay: "2.5s" }}>
                         <label className='text-2xl sm:text-xs sm:mt-4 sm:whitespace-nowrap font-bold'>Full Stack Developer</label>
                         <label className='text-lg sm:text-[11px] sm:leading-3'>
                             Developed a software for Criminal Face Detection from CCTV cameras known as CAMSAFE. Worked on Frontend using React js, Tailwind, python and Django.
                         </label>
                     </div>
+                    <div className={`w-full flex flex-col gap-0 ${exInView ? 'movedown3' : ''}`} style={{ animationDelay: "2.5s" }}>
+                        <label className='text-2xl sm:text-xs sm:whitespace-nowrap font-bold'>Front-End Developer</label>
+                        <label className='text-lg sm:text-[11px] sm:leading-3'>
+                            Worked on 6 medical projects. Developed Frontend using React js, Tailwind and python. Integrated Django APIs using Axios.
+                        </label>
+                    </div>
+                    
                 </div>
             </div>
         </div>
