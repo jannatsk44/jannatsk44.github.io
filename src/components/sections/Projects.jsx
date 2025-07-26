@@ -46,6 +46,9 @@ function Projects() {
         <div className='w-full pl-20 xs:pl-2 sm:pl-5 opacity-100 sm:py-0 pt-2 pb-8 z-10'>
         <Slider {...settings}>
         <div>
+            <ProjectCard title='AI-Powered Meeting Summarizer (ReactJS and DRF)' content='Developed an AI-powered Meeting Assistant using ReactJS and Django DRF, integrating GPT to auto-summarize meetings, transcribe audio, store recordings, and extract action items with assigned team members and deadlines.' link='https://github.com/jannatsk44/ai-meeting-assistant'/>
+          </div> 
+        <div>
             <ProjectCard title='AI-Powered Website Chatbot with Feedback Loop ' content='Developed an AI chatbot using ReactJS and Django DRF with GPT, website scraping, and RAG for accurate, context-aware responses. Integrated a feedback loop to validate and improve answers over time. Added a dashboard to monitor and enhance the bot through continuous learning.' link='https://aitrainingassistant.iqratechnology.com/'/>
           </div> 
         <div>
