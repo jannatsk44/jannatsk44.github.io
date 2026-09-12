@@ -1,46 +1,72 @@
-import React from 'react'
-import logo from '../../assets/logo.png'
+import React from 'react';
+import logo from '../../assets/logo.png';
+
 function Footer() {
   return (
-    <div className='bg-[#272727] rounded-2xl flex w-full flex-col items-center justify-center'>
-         <hr className='w-[88%] h-2 text-white mt-8 mb-4'/>
+    <footer className='bg-[#272727] rounded-t-3xl md:rounded-3xl flex w-11/12 max-w-7xl flex-col items-center justify-center my-6 py-6 px-4 sm:px-8 shadow-2xl'>
+      <hr className='w-full border-gray-700 my-4' />
 
-<div className='w-[88%] flex font-montserrat'>
- <div className='w-3/5 sm:w-full flex flex-col sm:items-center'>
-    <img src={logo} alt='' className='w-1/6 sm:w-1/4'/>
-     <label className='w-11/12 sm:w-full sm:text-sm text-justify text-white text-2xl py-5'>
-       I believe in myself. I work efficiently both as an individual contributor as well as along with a team. Besides the details given in my resume, I believe in character, values, vision, and action. I look for positivity in all things. I am a quick learner and believe in learning from my mistakes.
-     </label>  
- </div>
- <div className='w-1/5 sm:hidden flex flex-col items-end justify-center'>
-   <div className='w-3/4 flex flex-col gap-3'>
-      <label className='text-2xl text-butonOrange font-semibold font-montserrat'>Links</label>
-      <a href='#home' className='text-white cursor-pointer w-fit text-greenfont text-xl hover:border-b-2 hover:border-butonOrange'>Home</a>
-      <a href='#experience' className='text-white cursor-pointer w-fit text-greenfont text-xl hover:border-b-2 hover:border-butonOrange'>Experiences</a>
-      <a href='#project' className='text-white cursor-pointer w-fit text-greenfont text-xl hover:border-b-2 hover:border-butonOrange'>Projects</a>
-      <a href='#skills' className=' text-white cursor-pointer w-fit text-greenfont text-xl hover:border-b-2 hover:border-butonOrange'>Skills</a>
-      <a href='#publications' className='text-white cursor-pointer w-fit text-greenfont text-xl hover:border-b-2 hover:border-butonOrange'>Publications</a>
-   </div>
- </div>
- <div className='w-1/5 sm:hidden flex flex-col space-y-4 '>
-   <label className='text-2xl w-[85%] text-butonOrange font-semibold'>Contact Me</label>
-   <div className='w-fit grid grid-cols-1 items-center gap-2'>
-    <a href='tel:+91 9372465221' className='text-white cursor-pointer w-fit text-greenfont text-xl hover:border-b-2 hover:border-butonOrange'>
-        +91 9372465221
-    </a>
-    <a href='mailto:jannatiqbalsk@gmail.com' className='text-white cursor-pointer w-fit text-greenfont text-xl hover:border-b-2 hover:border-butonOrange'>
-        jannatiqbalsk@gmail.com
-    </a>
+      <div className='w-full flex flex-col md:flex-row items-center md:items-start justify-between gap-8 font-montserrat py-4'>
+        {/* Left Column: Bio & Logo */}
+        <div className='w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left'>
+          <img src={logo} alt='Jannat Logo' className='h-9 md:h-10 w-auto object-contain mb-3' />
+          <p className='text-gray-300 text-sm md:text-base leading-relaxed max-w-lg'>
+            Full-Stack Developer with 1.5+ years of experience building backend-heavy web applications using Python (Django REST Framework) and React.js. Skilled in secure RESTful APIs, RBAC, microservices-style architecture, AWS deployment, Docker containerization, and AI/automation pipelines using LangChain and OpenAI GPT-4.
+          </p>
+        </div>
 
-   </div> 
- </div>
-</div>
-<hr className='w-[88%] h-2 text-white my-4'/>
-<div className='text-sm sm:text-[9px] text-white font-montserrat mb-4'>
-  Copyright © 2024 Jannat Iqbal Shaikh | All rights reserved
-</div>
-    </div>
-  )
+        {/* Middle Column: Quick Links */}
+        <div className='w-full md:w-1/4 flex flex-col items-center md:items-start text-center md:text-left'>
+          <h4 className='text-xl text-gray-300 font-bold mb-3'>Navigation</h4>
+          <div className='flex flex-wrap md:flex-col justify-center gap-2.5 sm:gap-3 text-sm md:text-base'>
+            <a href='#home' className='text-gray-400 hover:text-white transition-colors'>
+              Home
+            </a>
+            <a href='#project' className='text-gray-400 hover:text-white transition-colors'>
+              Projects
+            </a>
+            <a href='#experience' className='text-gray-400 hover:text-white transition-colors'>
+              Experience
+            </a>
+            <a href='#skills' className='text-gray-400 hover:text-white transition-colors'>
+              Skills
+            </a>
+            <a href='#publications' className='text-gray-400 hover:text-white transition-colors'>
+              Publications
+            </a>
+            <a href='#contact' className='text-gray-400 hover:text-white transition-colors'>
+              Hire Me
+            </a>
+          </div>
+        </div>
+
+        {/* Right Column: Contact info */}
+        <div className='w-full md:w-1/4 flex flex-col items-center md:items-start text-center md:text-left'>
+          <h4 className='text-xl text-gray-300 font-bold mb-3'>Contact</h4>
+          <div className='flex flex-col items-center md:items-start gap-2.5 text-sm md:text-base'>
+            <a
+              href='tel:+919372465221'
+              className='text-gray-400 hover:text-white transition-colors'
+            >
+              +91 9372465221
+            </a>
+            <a
+              href='mailto:jannatiqbalsk@gmail.com'
+              className='text-gray-400 hover:text-white transition-colors break-all'
+            >
+              jannatiqbalsk@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <hr className='w-full border-gray-700 my-4' />
+
+      <div className='text-xs sm:text-sm text-gray-400 font-montserrat text-center py-2'>
+        Copyright © {new Date().getFullYear()} Jannat Iqbal Shaikh | All rights reserved
+      </div>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

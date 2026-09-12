@@ -7,22 +7,21 @@
 }
 
 
-  @media (max-width: 600px) {
-    .typing-demo {
-        width: 65% !important;
-       
-    }
-  }
-
   .typing-demo {
     display: inline-block;
-     width: 33%;
-     animation: typing 2s steps(23), blink .5s step-end infinite alternate;
-     white-space: nowrap;
-     overflow: hidden;
-     border-right: 3px solid;
-     border-color: transparent;
-   }
+    max-width: 100%;
+    animation: typing 2.5s steps(24), blink .75s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #374151;
+    vertical-align: bottom;
+  }
+
+  @media (max-width: 640px) {
+    .typing-demo {
+      border-right-width: 2px;
+    }
+  }
 
    @keyframes typing {
      from {

@@ -5,30 +5,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
+      colors: {
         navbg: '#171717',
         butonOrange: '#374151',
-
       },
       fontFamily: {
         'sans': ['Poppins', 'sans-serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
         'lufga': ['Lufga', 'sans-serif'],
-
+        'urbanist': ['Urbanist', 'sans-serif'],
       },
-      screens:{
-        'xs': {'max':'374px'},
-        'sm': {'max':'640px'},
-        'md': {'max':'768px'},
-        'lg': {'max':'1024px'},
-        'xl': {'max':'1280px'},
-        '2xl': {'max':'1536px'},
-        'mobile': {'max':'480px'},
-        'tablet': {'min':'481px', 'max':'768px'},
-        'laptop': {'min':'769px', 'max':'1024px'},
-        'desktop': {'min':'1025px'},
+      screens: {
+        'xs': '400px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
       },
     },
   },
   plugins: [],
-}
+}
